@@ -1,15 +1,12 @@
 name: iso_countries
 description: A plugin for fetching ISOCountries data from device OS. Name of countries can be obtained in different languages.
-version: 2.2.0
+version: 2.3.0
 homepage: https://github.com/anoop4real/flutter_iso_countries
 repository: https://github.com/anoop4real/flutter_iso_countries
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  # Flutter versions prior to 1.12 did not support the
-  # flutter.plugin.platforms map.
-  flutter: ">=1.12.0"
-
+  sdk: ">=3.5.0 <4.0.0"
+  
 dependencies:
   flutter:
     sdk: flutter
